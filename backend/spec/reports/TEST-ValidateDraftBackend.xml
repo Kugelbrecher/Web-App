@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Validate Draft Backend" errors="0" tests="8" failures="0" time="1.569" timestamp="2022-11-15T17:28:55">
+  <testcase classname="Validate Draft Backend" name="register new user" time="0.286"></testcase>
+  <testcase classname="Validate Draft Backend" name="login user" time="0.274"></testcase>
+  <testcase classname="Validate Draft Backend" name="Only returns articles for logged in user" time="0.066"></testcase>
+  <testcase classname="Validate Draft Backend" name="should add new article with successive article id, return list of articles with new article" time="0.064"></testcase>
+  <testcase classname="Validate Draft Backend" name="should return an article with a specified id" time="0.056"></testcase>
+  <testcase classname="Validate Draft Backend" name="should update the user&amp;apos;s headline" time="0.114"></testcase>
+  <testcase classname="Validate Draft Backend" name="should return the user&amp;apos;s headline" time="0.597"></testcase>
+  <testcase classname="Validate Draft Backend" name="logout user" time="0.111"></testcase>
+</testsuite>
+</testsuites>

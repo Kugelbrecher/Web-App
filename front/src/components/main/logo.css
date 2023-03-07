@@ -1,0 +1,84 @@
+.top {
+    width: 100%;
+    height: 50px;
+    background-color: wheat;
+    /* sticky: always in the same place when scrolling down */
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    /* z-index: specify stack order of an element
+       higher value of stack order/z-index will be displayed on top of element with lower stack order
+       thus when scrolling down, the top bar will always be display on top */
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.topLeft,
+.topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+
+.topCenter {
+    flex: 6;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.topIcon {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-left: 15px;
+    color: #be9656;
+    cursor: pointer;
+}
+
+/*inline block*/
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    /* get rid of dots in front of each item */
+    list-style: none;
+}
+
+.topLeftContent {
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    color: #be9656;
+}
+
+.topCenterContent {
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+/*    color: #be9656;*/
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.topListItem:hover{
+    color: gray;
+}
+
+.customLink{
+    text-decoration-line: underline;
+}

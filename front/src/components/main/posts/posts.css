@@ -1,0 +1,8 @@
+.posts{
+    flex: 9;
+    display: flex;
+    /* wrap means, when there is enough space, post will become another column */
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: beige;
+}
